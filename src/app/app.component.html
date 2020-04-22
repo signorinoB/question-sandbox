@@ -1,0 +1,15 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<h1 [hidden]="decoro.isHidden">Dodos Decoro</h1>
+
+<button (click)=toggleDodos() style="background: orange; border:1px solid red; margin: 10px 0;">toggle Dodos!</button>
+
+<button (click)=addCat()>add a cat</button>
+<button (click)=addPig()>add a pig</button>
+<button (click)=remCat()>remove a cat</button>
+<button (click)=remPig()>remove a pig</button>
+<hr>
+<button (click)=printDecoro()>decoro</button>
